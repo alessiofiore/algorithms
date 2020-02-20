@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * @author alessio
  */
-public class InsSort {
+public class InsertionSort {
 
     @Test
     public void test() {
