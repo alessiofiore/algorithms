@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * Pre-order visit [a,b,d,e,c,f,g,h]
+ * Iterative Pre-order visit [a,b,d,e,c,f,g,h]
  *
  *              a
  *             / \
@@ -15,7 +15,7 @@ import java.util.Stack;
  *                 \
  *                 h
  */
-public class DeepFirstSearch {
+public class DeepFirstSearchIterative {
     public static void main(String[] main) {
         Node h = new Node("h", null, null);
         Node g = new Node("g", null, h);
